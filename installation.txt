@@ -1,0 +1,24 @@
+Create a discord bot
+
+1. Go to the Discord Developer Portal (https://discord.com/developers/applications) and log in.
+2. Click on the "New Application" button. Give your application a name and click "Create".
+3. Click on the "Bot" tab on the left side of the screen, then click "Add Bot". Confirm by clicking "Yes, do it!".
+4. Under the "TOKEN" section, click "Copy" to copy your bot's token. This token is what your bot uses to log in to Discord, so keep it secret!
+5. Now, you need to invite your bot to a server. Click on the "OAuth2" tab on the left side of the screen.
+6. Under the "SCOPES" section, select "bot". Then, under the "BOT PERMISSIONS" section, select the permissions your bot needs.
+7. Copy the generated URL and open it in your web browser. Select a server to invite your bot to.
+8. Your bot is now created and has been invited to a server! You can start coding it using a library like discord.py.
+
+Remember to replace <token> in your code with the token you copied earlier. Never share this token with anyone, as it allows full control over your bot.
+
+create the environment variable (windows: setx SVERKER_TOKEN "REPLACE WITH TOKEN FROM DISCORD DEV")
+
+Set up the python code
+
+1. git clone <repository_url>
+2. cd <project_directory>
+3. python -m venv venv
+4. venv\Scripts\activate
+5. source venv/bin/activate
+6. pip install -r requirements.txt
+7. python sverker.py
